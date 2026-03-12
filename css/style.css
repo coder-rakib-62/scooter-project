@@ -1,6 +1,7 @@
 /*------ fonts link part start -------*/
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
 /*---------- fonts link part end  -----------*/
+
 /*------ common css part start --------*/
 * {
   margin: 0;
@@ -78,6 +79,7 @@ img {
   box-shadow: 0px 12px 25px -10px rgba(0, 0, 0, 0.75);
 }
 /*------ navbar part end --------*/
+
 /*------- banner part start -------*/
 #banner {
   padding-top: 84px;
@@ -144,6 +146,7 @@ img {
   right: 0;
 }
 /*-------- banner part end  ---------*/
+
 /*-------- counter part start  ---------*/
 #Counter {
   margin-top: 340px;
@@ -177,6 +180,7 @@ img {
   text-align: center;
 }
 /*-------- counter part end  ---------*/
+
 /*-------- product information part start  ---------*/
 .row {
   align-items: center;
@@ -214,8 +218,72 @@ img {
   margin-left: auto;
 }
 /*-------- product information part end  ---------*/
+
 /*-------- Efficiency part start  ---------*/
 .Efficiency-image {
   margin-top: 55px;
 }
 /*-------- Efficiency part end  ---------*/
+
+/*-------- accessories part start  ---------*/
+.accessories-img img {
+  width: 100%;
+  margin-left: 580px;
+}
+.accessories-text h3 {
+  margin-top: 160px;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: var(--ubuntu);
+  line-height: 120%;
+  color: var(--text-color);
+  margin-bottom: 33px;
+}
+.accessories-text p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--ubuntu);
+  line-height: 140%;
+  color: var(--text-color);
+  margin-bottom: 44px;
+}
+.shopping-img img {
+  width: 780px;
+}
+.shopping-text h3 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: var(--ubuntu);
+  line-height: 120%;
+  color: var(--text-color);
+  margin-bottom: 33px;
+}
+.shopping-text p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--ubuntu);
+  line-height: 140%;
+  color: var(--text-color);
+  margin-bottom: 44px;
+}
+.common-button {
+  display: flex;
+  justify-content: center;
+}
+.common-button button {
+  padding:15px 20px 15px 20px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: var(--ubuntu);
+  color: var(--text-color);
+  line-height: 120%;
+  border: 1px solid var(--text-color);
+  border-radius: 10px;
+
+  transition: all linear 0.4s;
+}
+.common-button button:hover {
+  background: var(--text-color);
+  color: #ffffff;
+}
+/*-------- accessories part end  ---------*/
